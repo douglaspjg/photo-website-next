@@ -1,0 +1,24 @@
+{
+    "images": [
+        {
+            "path":"/images/landing/arashiyama.JPG",
+            "description":"arashiyama"
+        },
+        {
+            "path":"/images/landing/kinkakuji.JPG",
+            "description":"kinkakuji"
+        },
+        {
+            "path":"/images/landing/kyoto-station new.jpg",
+            "description":"kyoto station"
+        },
+        {
+            "path":"/images/landing/ninenzaka.JPG",
+            "description":"ninenzaka"
+        },
+        {
+            "path":"/images/landing/tenryuji.JPG",
+            "description":"tenryuji"
+        }
+    ]
+}

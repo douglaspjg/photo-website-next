@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+body {
+  @apply bg-primary text-main-black antialiased font-satoshi font-medium;
+}
+
+.kyoto-paragraph {
+  @apply leading-10 mb-6;
+}
+
+.anim {
+  @apply transition ease-in-out hover:-translate-y-1 hover:scale-110 hover:text-[#B6D89B];
+}
+
+.anim-darker {
+  @apply transition ease-in-out hover:-translate-y-1 hover:scale-110 hover:text-[#9cb984];
+}
+
+.kyoto-footer-p {
+  @apply text-sm m-0 text-center font-sourceCodePro font-normal text-[#666666];
+}
+
+* {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  text-decoration: none;
+  list-style: none;
+}

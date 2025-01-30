@@ -7,12 +7,20 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      cabinet: ["var(--font-cabinet)"],
+      generalSans: ["var(--font-general-sans)"],
+      ranade: ["var(--font-ranade)"],
+      satoshi: ["var(--font-satoshi)"],
+      sourceCodePro: ["var(--font-source-code-pro)"],
+    },
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
+      colors: {
+        "primary": ' #FAFAF9',
+        "main-black": '#262626',
+        "main-grey": '#666666',
+        "accent" : '#B6D89B'
+      }
     },
   },
   plugins: [],
