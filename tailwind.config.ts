@@ -16,10 +16,16 @@ const config: Config = {
     },
     extend: {
       colors: {
-        "primary": ' #FAFAF9',
-        "main-black": '#262626',
-        "main-grey": '#666666',
-        "accent" : '#B6D89B'
+        "first-green": ' #ccd5ae',
+        "second-green": '#e9edc9',
+        "first-beige": '#FEF7E1',
+        "second-beige" : '#faedcd',
+        "third-beige" : '#F1D8A2',
+        "fourth-beige" : '#d4a373',
+        "fifth-beige" : '#C3803C',
+        "first-grey" : '#cdc5b4',
+        "second-grey" : '#675E56',
+        "third-grey" : '#48423C',
       }
     },
   },

@@ -1,6 +1,9 @@
 {
     "images": [
         {
+            "path":"/images/portfolio/TeramachiJinjaCrop1.jpeg"
+        },
+        {
             "path":"/images/portfolio/Bird.jpeg"
         },
         {
@@ -86,9 +89,6 @@
         },
         {
             "path":"/images/portfolio/SlimyRock.jpeg"
-        },
-        {
-            "path":"/images/portfolio/TeramachiJinjaCrop1.jpeg"
         },
         {
             "path":"/images/portfolio/UtaCoffee1.jpeg"

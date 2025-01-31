@@ -29,7 +29,7 @@ const Carousel: React.FC = () => {
             {/* Previous Button */}
             <button
                 onClick={() => handleClick(-1)}
-                className="mr-2 text-2xl w-auto px-24 anim  h-[550px]"
+                className="mr-2 text-2xl w-auto px-24 anim-darker h-[550px]"
             >
                 &#10094;
             </button>
@@ -55,7 +55,7 @@ const Carousel: React.FC = () => {
                 </div>
 
                 {/* Image Counter */}
-                <div className="absolute bottom-[-3rem] bg-slate-50/50 rounded-md px-4 py-1 text-sm mt-6 z-100">
+                <div className="absolute bottom-[-3rem] rounded-md px-4 py-1 text-sm mt-6 z-100">
                     {`${imageindex + 1} / ${imagesLen}`}
                 </div>
             </div>
@@ -63,7 +63,7 @@ const Carousel: React.FC = () => {
             {/* Next Button */}
             <button
                 onClick={() => handleClick(1)}
-                className="ml-2 text-2xl w-auto px-24 anim h-[550px]"
+                className="ml-2 text-2xl w-auto px-24 anim-darker h-[550px]"
             >
                 &#10095;
             </button>

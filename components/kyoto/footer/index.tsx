@@ -1,8 +1,8 @@
 export default function Footer() {
     return (
-        <div className="flex justify-around items-center bg-[#E8E8E2] bottom-0 shrink-0 p-8">
+        <div className="flex justify-around items-center bg-second-grey bottom-0 shrink-0 p-8">
             <div id="foot-left" className="flex flex-col items-center">
-                <h3 className="font-sourceCodePro font-bold p-2 text-[#666666] text-center text-xl anim-darker">
+                <h3 className="font-sourceCodePro font-bold p-2 text-second-beige text-center text-xl anim-darker">
                     Douglas Pineda Gutierrez
                 </h3>
                 <p className="kyoto-footer-p">Williams College | Summer 2023</p>

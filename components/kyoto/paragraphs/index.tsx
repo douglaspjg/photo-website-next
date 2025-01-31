@@ -1,6 +1,6 @@
 export default function Paragraphs() {
     return (
-        <div className="p-8">
+        <div className="p-16">
             <h2 className="font-generalSans font-bold text-3xl mb-8">
                 modernism and tradition in kyoto
             </h2>
