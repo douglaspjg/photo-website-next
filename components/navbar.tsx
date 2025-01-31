@@ -11,8 +11,8 @@ import { faBold } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar: React.FC = () => {
     return (
-        <div>
-            <nav className="flex justify-between align-center w-full pl-16 pr-16 p-4 font-satoshi mt-2">
+        <div className="bg-[#E8E8E3]">
+            <nav className="flex relative justify-between align-center w-full pl-16 pr-16 p-4 font-satoshi pt-4 bg-[#E8E8E3]">
                 {/*******************************************************************************/}
                 {/********************************** Left side **********************************/}
                 {/*******************************************************************************/}
@@ -29,7 +29,10 @@ const Navbar: React.FC = () => {
                 {/*******************************************************************************/}
                 {/************************************ Logo *************************************/}
                 {/*******************************************************************************/}
-                <a href="" className="flex justify-center my-auto">
+                <a
+                    href=""
+                    className="flex justify-center my-auto absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+                >
                     <p className="font-generalSans font-bold text-3xl anim">
                         dpg.
                     </p>

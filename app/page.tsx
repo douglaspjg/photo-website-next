@@ -1,19 +1,17 @@
 import Link from "next/link";
 import Carousel from "@/components/carousel";
+import Image from "next/image";
 
 export default function Home() {
     return (
         <div>
-            <div className="p-4">
-                <p className="text-center">
-                    I'm currently working on building out my landing page,
-                    optimizing performance, and organizing my images into
-                    distinct collections.
-                </p>
-                <Link href="/kyoto" className="block w-full text-center">
-                    For now, please enjoy the pictures I've included down below
-                    or on my Kyoto project page!
-                </Link>
+            <div className="flex overflow-auto text-4xl p-8 text-center w-full items-center justify-center font-semibold">
+                <div className="mr-16">Hello! I'm Douglas :)</div>
+                <img
+                    src="/images/Viscaya.jpeg"
+                    className="aspect-square object-cover rounded-full h-52"
+                    alt=""
+                />
             </div>
             <Carousel />
         </div>
