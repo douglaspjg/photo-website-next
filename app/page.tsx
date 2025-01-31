@@ -1,4 +1,3 @@
-import Navbar from "../components/navbar";
 import Link from "next/link";
 import Carousel from "@/components/carousel";
 
@@ -12,7 +11,6 @@ export default function Home() {
                     distinct collections.
                 </p>
                 <Link href="/kyoto" className="block w-full text-center">
-                    {" "}
                     For now, please enjoy the pictures I've included down below
                     or on my Kyoto project page!
                 </Link>
