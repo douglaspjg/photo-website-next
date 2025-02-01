@@ -24,7 +24,7 @@ const KyoCarousel: React.FC = () => {
     return (
         <div
             id="carousel"
-            className="flex justify-between px-8 max-h-[550px] max-w-[1440px] w-auto flex-1 my-16"
+            className="flex justify-between px-8 max-h-[550px] max-w-[1440px] w-auto flex-1 mb-16"
         >
             <button
                 id="previous-button"

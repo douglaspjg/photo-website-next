@@ -14,7 +14,7 @@ const Carousel: React.FC = () => {
     }
 
     let prev = tuple[0];
-    let direction: number = imageindex > prev ? 1 : -1;
+    let direction: number = imageindex > (prev !== null ? prev : -1) ? 1 : -1;
 
     const handleClick = (offset: number) => {
         console.log(direction);
