@@ -1,5 +1,8 @@
 import Link from "next/link";
 import Carousel from "@/components/carousel";
+import Spotify from "@/components/spotify";
+import Spotify2 from "@/components/spotify2";
+import SpotifyMerged from "@/components/spotifyMerged";
 import Image from "next/image";
 
 export default function Home() {
@@ -14,6 +17,7 @@ export default function Home() {
                 <div className="text-second-grey text-center">
                     Hello, I'm Douglas!
                 </div>
+                <SpotifyMerged></SpotifyMerged>
             </div>
             <Carousel />
         </div>
