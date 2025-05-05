@@ -7,7 +7,7 @@ const SpotifyMerged = () => {
     const hasRun = useRef(false);
 
     const clientId = "c74683c3adda453ca92ae6fa5575648c";
-    const redirectUri = "http://127.0.0.1:3000";
+    const redirectUri = "https://www.douglaspg.com";
 
     useEffect(() => {
         console.log("useEffect ran");
